@@ -22,14 +22,14 @@ Route::get("/", function () {
 });
 
 Route::get("/contacts", function () {
-    return view("contacts.blade.php");
+    return view("contacts");
 });
 
 Route::get("/about", function () {
-    return view("about.blade.php");
+    return view("about");
 });
 
 Route::get("/services", function () {
-    return view("services.blade.php");
+    return view("services");
 });
 
