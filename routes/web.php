@@ -20,3 +20,16 @@ use Illuminate\Support\Facades\Route;
 Route::get("/", function () {
     return view("homepage");
 });
+
+Route::get("/contacts", function () {
+    return view("contacts.blade.php");
+});
+
+Route::get("/about", function () {
+    return view("about.blade.php");
+});
+
+Route::get("/services", function () {
+    return view("services.blade.php");
+});
+
